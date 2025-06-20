@@ -23,7 +23,7 @@ The repository is organized into several key directories:
 -   `NoEEG_Borealis/`: Contains the core research materials, experiments, and models.
     -   `DoA-Zero-EEG/`: A self-contained Python project with its own dependencies.
     -   `doa-zero-eeg-sample_filtered/`: Contains sample data in Parquet format and notebooks for data loading and modeling (e.g., with XGBoost).
-    -   `PATCH_TST_FINAL_TRAINED/`: Contains pre-trained models and notebooks for testing.
+    -   `PATCH_TST_FINAL_TRAINED/`: Contains pre-trained patch based transformer models and notebooks for testing.
     -   `Diffusion for imputation/` & other PDFs: A collection of research papers that form the theoretical basis for the experiments.
 -   `ETDataset-main/`: Contains the ETT dataset and experiments related to it, particularly using PatchTST.
 -   `requirements.txt`: A list of Python dependencies for this project.
@@ -60,35 +60,16 @@ You need Python 3.8+ and `pip` installed on your system.
 
 The primary way to interact with this project is through the Jupyter notebooks located in various subdirectories.
 
--   To explore the ETT dataset with PatchTST, see the notebooks in `ETDataset-main/PATCH_TST/ETDataset/ETT-small/`.
 -   To see how to load the Parquet data, check `NoEEG_Borealis/doa-zero-eeg-sample_filtered/load_data.ipynb`.
 -   For an example of an XGBoost model, refer to `NoEEG_Borealis/doa-zero-eeg-sample_filtered/XGBOOST_model.ipynb`.
 -   To use the pre-trained models, explore the notebooks in `NoEEG_Borealis/PATCH_TST_FINAL_TRAINED/`.
 
-To run a notebook:
-```bash
-jupyter notebook path/to/your/notebook.ipynb
-```
 
-## Data
-
-This project utilizes several datasets:
-
--   **ETT Dataset:** The Electricity Transformer Temperature dataset is a standard benchmark for time series forecasting. It can be found in `ETDataset-main/PATCH_TST/ETDataset/ETT-small/`.
--   **Surgeries Dataset:** CSV files like `Surgeries.csv` and `Complete_data_surgeries.csv` suggest a dataset related to medical/surgical procedures.
--   **DoA-Zero-EEG Data:** A custom dataset stored in Parquet format in `NoEEG_Borealis/doa-zero-eeg-sample_filtered/`.
-
-## Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
 
 
 
