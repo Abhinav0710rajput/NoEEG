@@ -4,16 +4,15 @@
 
 ## Overview
 
-This repository, `NoEEG`, is a collection of research and implementation for time series analysis, with a focus on forecasting and imputation. The project explores state-of-the-art models like PatchTST and diffusion models, and includes experiments on various datasets, including the ETT (Electricity Transformer Temperature) dataset and potentially others related to surgical procedures.
+This repository, `NoEEG`, is a collection of research and implementation for time series analysis, with a focus on forecasting and imputation. The project explores state-of-the-art models like PatchTST and diffusion models for predicting Depth of Anaesthesia during surgeries. 
 
-A core theme of this repository appears to be exploring powerful time series techniques that can achieve high accuracy without relying on traditional signals like EEG, as suggested by the names `NoEEG` and `DoA-Zero-EEG` (Degree of Arrival - Zero EEG).
 
 ## Features
 
 - **Time Series Forecasting:** Implementations and experiments using the PatchTST model.
 - **Data Imputation:** Exploration of diffusion models for imputing missing data in time series.
 - **Rich Datasets:** Utilizes standard benchmarks like the ETT dataset and custom datasets related to surgeries.
-- **Reproducibility:** Jupyter notebooks are provided to reproduce experiments and model training.
+- **Reproducibility:** Jupyter notebooks to reproduce experiments and model training.
 - **Pre-trained Models:** Contains pre-trained models for DLinear, Linear, and PatchTST.
 
 ## Project Structure
@@ -24,10 +23,8 @@ The repository is organized into several key directories:
     -   `DoA-Zero-EEG/`: A self-contained Python project with its own dependencies.
     -   `doa-zero-eeg-sample_filtered/`: Contains sample data in Parquet format and notebooks for data loading and modeling (e.g., with XGBoost).
     -   `PATCH_TST_FINAL_TRAINED/`: Contains pre-trained patch based transformer models and notebooks for testing.
-    -   `Diffusion for imputation/` & other PDFs: A collection of research papers that form the theoretical basis for the experiments.
 -   `ETDataset-main/`: Contains the ETT dataset and experiments related to it, particularly using PatchTST.
 -   `requirements.txt`: A list of Python dependencies for this project.
--   `README.md`: This file.
 
 ## Getting Started
 
