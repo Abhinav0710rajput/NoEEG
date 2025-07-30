@@ -1,6 +1,6 @@
 # NoEEG: A Comprehensive Time Series Analysis and Forecasting Project
 
-This repository, `NoEEG`, is a collection of research and implementation for time series analysis, with a focus on forecasting and imputation. The project explores state-of-the-art models like PatchTST and diffusion models for predicting Depth of Anaesthesia during surgeries. 
+This repository, `NoEEG`, is a collection of research and implementation for time series analysis, with a focus on forecasting and imputation. We extend an approach implementing a transformer-based cross-attention models to enhance the prediction of brain signals from anesthetic surgeries. Our approach generalizes the patch-based attention mechanism to predict depth of anaesthesia.
 
 ## Features
 
