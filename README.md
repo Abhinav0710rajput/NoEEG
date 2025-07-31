@@ -1,4 +1,8 @@
-# NoEEG: A Comprehensive Time Series Analysis and Forecasting Project
+# NoEEG: Quantifying Consciousness without EEG
+
+https://github.com/user-attachments/assets/582c2244-51ee-46b1-896c-4093a25d90ab
+
+Predicting the BIS scores during the surgery from cross cross-attention-based encoder on 5 biological signals
 
 This repository, `NoEEG`, is a collection of research and implementation for time series analysis, with a focus on forecasting and imputation. We extend an approach implementing a transformer-based cross-attention models to enhance the prediction of brain signals from anesthetic surgeries. Our approach generalizes the patch-based attention mechanism to predict depth of anaesthesia.
 
